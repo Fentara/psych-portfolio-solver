@@ -1,4 +1,5 @@
-import ortools.linear_solver as pywraplp
+import ortools.linear_solver as pywraplp    
+from staff_management import Staff
 
 def create_optimization_model():
     # Create the solver
